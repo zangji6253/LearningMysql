@@ -48,3 +48,8 @@ ROLLBACK： 取消对数据库中的数据进行的变更
 GRANT： 赋予用户操作权限
 
 REVOKE： 取消用户的操作权限
+
+## CREATE
+```
+# CREATE DATABASE <DATABASE_NAME>;
+```
