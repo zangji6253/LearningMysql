@@ -61,4 +61,14 @@ CREATE TABLE <TABLE_NAME>
 ...
 <该表的约束1>,<该表的约束2>,...
 );
+
+create table product ( 
+product_id char(4) not null, 
+product_name varchar(100) not null, 
+product_type varchar(32) not null, 
+sale_price integer, 
+purchase_prise integer, 
+regist_data date, 
+primary key (product_id) 
+);
 ```
